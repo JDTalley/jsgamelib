@@ -1,0 +1,2 @@
+# jsgamelib
+JavaScript game library
