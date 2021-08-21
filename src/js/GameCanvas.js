@@ -1,4 +1,4 @@
-class GameCanvas {
+export default class GameCanvas {
     constructor(id, alphaBool) {
         this.canvas = document.getElementById(id)
         this.context = this.canvas.getContext('2d', { alpha: alphaBool })
