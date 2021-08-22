@@ -2,6 +2,7 @@
     "name": "jsgamelib",
     "version": "0.0.1",
     "description": "Javascript game library",
+    "main": "index.js",
     "author": "Dakota Talley",
     "scripts": {},
     "devDependencies": {
