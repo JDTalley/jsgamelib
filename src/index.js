@@ -1,11 +1,5 @@
-import Game from './Game';
-import Canvas from './Canvases/Canvas';
-import VectorCanvas from './Canvases/VectorCanvas';
-import UICanvas from './Canvases/UICanvas';
+import ECS from "./ecs";
 
-module.exports = {
-  Game,
-  Canvas,
-  VectorCanvas,
-  UICanvas
-}
+const world = ECS.createWorld();
+
+const player = ECS.addEntity(world);
