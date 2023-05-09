@@ -1,8 +1,8 @@
 {
   "name": "jsgamelib",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Javascript game library",
-  "main": "./dist/jsgamelib.js",
+  "main": "./dist/index.js",
   "author": "JDTalley",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
