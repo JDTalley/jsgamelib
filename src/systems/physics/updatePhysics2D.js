@@ -12,11 +12,7 @@ const updatePhysics2D = (world) => {
   //console.log(world);
   //console.log(validEntities);
   function isValidEntity(entity) {
-    if (entity.position2D && entity.velocity2D) {
-      return true;
-    } else {
-      return false;
-    }
+    return entity.position2D && entity.velocity2D;
   }
 };
 
